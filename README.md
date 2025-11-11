@@ -51,7 +51,11 @@ df_t3
 - Gender: Both female and male genders are approximately equally distributed accross the dataset. They have approximately the same churn rate.
 - Contract: Month-to-month customers both dominate the dataset and contribute heavily to churn (month-to-month churn rate ~43%). Two-year contracts have very low churn rates.
 - Payment method: Electronic check has the highest churn rate and contributes most to global churn.
-- Correlations (numeric): tenure and churn show negative correlation (~-0.35); monthly charges correlate positively with churn (~0.19); total charges correlate moderately with tenure and negatively with churn (~-0.20). This suggests shorter-tenure customers (new customers) are more likely to churn; higher monthly charges slightly increase churn probability.
+- Correlations (numeric):
+   - tenure and churn show negative correlation (~-0.35).
+   - monthly charges correlate positively with churn (~0.19).
+   - total charges correlate moderately with tenure and negatively with churn (~-0.20).
+   - This suggests shorter-tenure customers (new customers) are more likely to churn and higher monthly charges slightly increase churn probability.
 
 #### Visualzation
 ##### Code snippet (heatmap and correlation bar)
